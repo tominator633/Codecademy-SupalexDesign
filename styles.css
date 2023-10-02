@@ -1,0 +1,561 @@
+* {box-sizing: border-box;
+    margin: 0;
+padding: 0;}
+
+html,body {
+    font-family: 'Prompt', sans-serif;}
+
+/* ***************************** HEADER ********************/
+#mobile-menu-btn {
+    display: none;
+}
+header {
+    z-index: 100;
+    height: 70px;
+    width: 100%;
+    position: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color:white;
+    background-repeat: no-repeat;
+    padding-left: 20px;
+    padding-right: 10px;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+
+
+}
+#logo {
+    width: 300px;
+    display: block;
+}
+#logo img {
+    width: 100%;
+    display: block;
+}
+
+header ul {
+    width: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+header ul li {
+    list-style-type: none;
+    padding-right: 50px;
+}
+header ul li a:link,header ul li a:visited {
+    text-decoration: none;
+    font-size: 24px;
+    color: #627877;
+font-family: 'Prompt', sans-serif;
+}
+header ul li a:hover,header ul li a:active {
+    color: #96aaa9;
+    font-weight: 700;
+    font-size: 25px;
+    transition: 0.2s;
+
+}
+/* ***************************** HEADER-QUERIES ********************/
+@media only screen and (max-width: 860px) {
+    header {
+        height: 60px;
+    }
+
+    header ul li:nth-child(1),
+    header ul li:nth-child(2),
+    header ul li:nth-child(3){
+        display: none;
+    }
+
+    #mobile-menu-btn {
+        display: block;
+        padding-right: 5px;
+    }
+    #mobile-menu-btn a svg {
+        display: block;
+        width: 30px;
+        height: 30px;
+        
+    }
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+/* ***************************** MAIN ********************/
+
+
+
+#sofa {
+    background-image: url(/images/sofa.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    height: 100vh;
+    width: 100%;
+   
+    
+
+}
+
+#sofa h2 {
+    width: 80%;
+    font-size: 30px;
+    position: relative;
+    color: white;
+    top: 45%;
+    left: 50%;
+    transform: translateX(-50%);
+    font-weight: 100;
+    text-align: center;
+}
+ #sofa h2 span {
+    color: #ff9955ff;
+} 
+
+/* ****************OUR SERVICES************************ */
+/* ****************OUR SERVICES************************ */
+/* ****************OUR SERVICES************************ */
+/* ****************OUR SERVICES************************ */
+#Our-Services {
+    width: 100%;
+    /* height: 700px; */
+}
+
+#Our-Services h1 {
+    width: 100%;
+    padding: 60px 40px 20px 40px;
+    font-size: 50px;
+    text-align: center;
+    color: #627877;
+}
+
+#Our-Services article {
+font-size: 30px;
+text-align: center;
+padding: 10px 15% 60px 15%;
+color: #627877;
+}
+
+#types-of-service {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 100%;
+    padding-bottom: 100px;
+    
+
+
+}
+
+#types-of-service h1 {
+    width: 500px;
+    height: 500px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    font-size: 40px;
+    text-align: left;
+    padding: 30px;
+    overflow: hidden;
+    font-weight: 100;
+    color: white;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#interior {
+background-image: linear-gradient(
+        to bottom,
+        rgba(0, 0, 0, 0.3),
+        rgba(0, 0, 0, 0.3)),url(/images/interior.jpg);
+}
+
+#sale {
+background-image: linear-gradient(
+    to bottom,
+    rgba(0, 0, 0, 0.3),
+    rgba(0, 0, 0, 0.3)),url(/images/sale.jpg);
+}
+
+#custom {
+background-image: linear-gradient(
+    to bottom,
+    rgba(0, 0, 0, 0.3),
+    rgba(0, 0, 0, 0.3)),url(/images/custom.jpg);
+}
+
+@media only screen and (max-width: 1100px) {
+    #Our-Services article {
+        padding: 10px 5% 60px 5%;
+        }
+}
+
+@media only screen and (max-width: 1020px) {
+    #types-of-service h1 {
+        font-size: 25px;
+    }
+
+}
+@media only screen and (max-width: 860px) {
+    #Our-Services article {
+        font-size: 20px;
+        text-align: justify;
+   
+        }
+}
+@media only screen and (max-width: 700px) {
+    #types-of-service {
+        flex-direction: column;
+        align-items: stretch;
+        justify-content: center;
+        max-width: 100%;
+        padding-bottom: 100px;
+}
+#types-of-service h1 {
+    width: inherit;
+    font-size: 35px;
+   
+}
+}
+
+
+
+
+/* SLOGANS***************/
+
+#slogans {
+    width: 100%;
+    padding: 30px 100px;
+    background-color: #435352;
+    color: #ff9955ff;
+}
+
+#slogans p {
+    font-size: 50px;
+    padding: 10px;
+    width: 50%;
+    margin: 0 auto;
+}
+
+#functionality {
+    text-align: right;
+}
+
+#beauty {
+    text-align: center;
+}
+
+
+#sustainability {
+    text-align: right;
+}
+
+@media only screen and (max-width: 1230px) {
+    #beauty {
+        text-align: right;
+    }
+    #slogans {
+        padding: 60px 15px;
+    }
+    #slogans p {
+        width: 100%;
+    }
+}
+
+
+/* HOME-BUSINESS********/
+#home-business {
+    width: 100%;
+    display: flex;
+    height: 600px;
+    justify-content: space-between;
+    background: linear-gradient(to right, #ff9955ff, #008080ff);
+}
+
+#home,#business {
+    width: 35%;
+    height: 400px;
+}
+
+#home {
+    background-image: url(/images/home.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-top: -50px; 
+}
+
+#business {
+    background-image: url(/images/business.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-top: 270px; 
+}
+
+#buttons {
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    justify-content: center;
+} 
+
+#buttons button {
+margin-bottom: 30px;
+   padding: 5px;
+    cursor: pointer;
+    font-size: 40px;
+    font-family: 'Prompt', sans-serif;
+    font-weight: 700;
+    background-color: transparent;
+    border: 2px solid white;
+    color: white;
+}
+#buttons button:hover,#buttons button:active {
+    transform: translateY(-6px);
+    transition: 0.6s;
+    border-color: #8da2a1;
+    color: #8da2a1;
+}
+@media only screen and (max-width: 930px) {
+    #buttons button {
+            font-size: 20px;        
+        }
+}
+@media only screen and (max-width: 700px) {
+    #home-business {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        height: inherit;
+        justify-content: space-between;
+        align-items: center;
+        background: linear-gradient(to bottom, #ff9955ff, #008080ff);
+    }
+    #home,#business {
+        width: 80%;
+        height: 400px;
+    }
+    #business {
+        margin-top: 0px; 
+        margin-bottom: -50px;
+    }
+    #buttons {
+        width: 80%;
+        justify-content: space-around;
+        height: 150px;
+    } 
+    #buttons button {
+        margin-bottom: 0px;
+        }
+}
+
+/* ****************OUR TEAM************************ */
+/* ****************OUR TEAM************************ */
+/* ****************OUR TEAM************************ */
+/* ****************OUR TEAM************************ */
+
+#Our-team {
+    background-color: #c5d0cf;
+}
+
+
+#Our-team h1 {
+    width: 100%;
+    padding: 140px 40px 50px 40px;
+    font-size: 50px;
+    text-align: center;
+    color: #627877;
+}
+
+#Team-container {
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 30px;
+    padding-bottom: 80px;
+}
+
+.member {
+    width: 23%;
+    padding: 8px;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.img-container {
+    width: 100%;
+}
+
+.img-container img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.member h2 {
+    width: 100%;
+    
+    padding: 5px;
+    text-align: center;
+    color: #008080ff;
+}
+
+.member h3 {
+    width: 100%;
+
+    text-align: center;
+    font-size: 12px;
+    color: #ff9955ff;
+}
+
+
+@media only screen and (max-width: 1080px) {
+    #Team-container {
+        width: 98%;
+    }
+    .member {
+        width: 24%;
+    }
+    .member h2 {
+        font-size: 15px;
+    }
+}
+@media only screen and (max-width: 680px) {
+    #Team-container {
+        flex-wrap: wrap;
+        gap: 20px;
+        align-items: center;
+        justify-content: center;
+    }
+    .member {
+        width: 230px;
+        /* IMPORTANT TO CHANGE % INTO AN EXACT 
+        WIDTH IN ORDER TO MAKE FLEX-WRAP WORK */
+        padding: 8px;
+        background-color: white;
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    }
+}
+
+/* **************** CONTACT ************************ */
+/* **************** CONTACT ************************ */
+/* **************** CONTACT ************************ */
+/* **************** CONTACT ************************ */
+
+
+#contact {
+padding-left: 5%;
+padding-right: 5%;
+}
+
+#contact h1 {
+    width: 100%;
+    padding: 50px 40px 50px 40px;
+    font-size: 50px;
+    text-align: center;
+    color: #627877;
+}
+
+form {
+   margin: 0 auto;
+    background-color:#ff9955ff;
+    max-width: 700px;
+    padding: 30px;
+    margin-bottom: 50px;
+
+}
+
+form input,textarea {
+    margin: 0 auto;
+    display: block;
+    width: 95%;
+    padding: 10px;
+    border: none;
+    font-family: 'Prompt', sans-serif;
+    margin-bottom: 10px;
+}
+
+input[type="submit"] {
+    font-size: 20px;
+    cursor: pointer;
+    background-color: #008080ff;
+    color: white;
+    margin-bottom: 0;
+}
+input[type="submit"]:active {
+    background-color: #00b3b3ff;
+   
+}
+
+
+
+
+/* **************** FOOTER ************************ */
+/* **************** FOOTER ************************ */
+/* **************** FOOTER ************************ */
+/* **************** FOOTER ************************ */
+
+footer {
+    width: 100%;
+    background-color: #8da2a1;
+    color: white;
+}
+#footer-menu {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    padding: 40px 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+   
+}
+#footer-menu div {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+   
+    height: 180px;
+ 
+}
+
+footer a:link,footer a:visited {
+    text-decoration: none;
+    color: white;
+}
+
+footer a:hover,footer a:active {
+    text-decoration: underline;
+}
+
+#footer-copyright {
+    text-align: center;
+    font-weight: 100;
+    padding-top: 60px;
+
+}
+
+@media only screen and (max-width: 650px) {
+    #footer-menu div:nth-child(2) {
+        display: none;
+    }
+}
