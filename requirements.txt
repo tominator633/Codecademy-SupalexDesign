@@ -32,38 +32,3 @@ Project Solution
 Great work! Visit our forums to compare your project to our sample solution code. You can also learn how to host your own solution on GitHub so you can share it with other learners!
 
 Remember, this is just one possible solution. Your own project may be coded totally differently, have more or less content, and look totally different! We’re providing our solution for you get a sense of one way to flexbox to help with page layout. There are multiple ways to solve these projects, and you’ll learn more by seeing others’ code.
-
-
-
-
-
-
-
--------colors-----------
-
-ORANGE
-color: #ff9955ff;
-
-BLUE
-color: #008080ff;
-
-
-
-
-interior design and its constructional realization
-
-Sale of designer furniture
-
-custom furniture, upholstery and carpentry
-
-
-Supalex Design was founded in 2010 with the aim of providing our clients
-quality solutions for residential and business interiors. Besides interior design we also offer 
-wide range of high-quality furniture for sale and custom upholstery. 
-
-functionality, sustainability, beauty
-
-
-
-
-links to sections
