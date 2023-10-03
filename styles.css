@@ -99,7 +99,7 @@ header ul li a:hover,header ul li a:active {
 
 
 #sofa {
-    background-image: url(/images/sofa.jpg);
+    background-image: url(images/sofa.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -182,21 +182,21 @@ color: #627877;
 background-image: linear-gradient(
         to bottom,
         rgba(0, 0, 0, 0.3),
-        rgba(0, 0, 0, 0.3)),url(/images/interior.jpg);
+        rgba(0, 0, 0, 0.3)),url(images/interior.jpg);
 }
 
 #sale {
 background-image: linear-gradient(
     to bottom,
     rgba(0, 0, 0, 0.3),
-    rgba(0, 0, 0, 0.3)),url(/images/sale.jpg);
+    rgba(0, 0, 0, 0.3)),url(images/sale.jpg);
 }
 
 #custom {
 background-image: linear-gradient(
     to bottom,
     rgba(0, 0, 0, 0.3),
-    rgba(0, 0, 0, 0.3)),url(/images/custom.jpg);
+    rgba(0, 0, 0, 0.3)),url(images/custom.jpg);
 }
 
 @media only screen and (max-width: 1100px) {
@@ -293,7 +293,7 @@ background-image: linear-gradient(
 }
 
 #home {
-    background-image: url(/images/home.jpg);
+    background-image: url(images/home.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -301,7 +301,7 @@ background-image: linear-gradient(
 }
 
 #business {
-    background-image: url(/images/business.jpg);
+    background-image: url(images/business.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -447,7 +447,7 @@ margin-bottom: 30px;
         justify-content: center;
     }
     .member {
-        width: 230px;
+        width: 220px;
         /* IMPORTANT TO CHANGE % INTO AN EXACT 
         WIDTH IN ORDER TO MAKE FLEX-WRAP WORK */
         padding: 8px;
