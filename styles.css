@@ -53,8 +53,6 @@ font-family: 'Prompt', sans-serif;
 }
 header ul li a:hover,header ul li a:active {
     color: #96aaa9;
-    font-weight: 700;
-    font-size: 25px;
     transition: 0.2s;
 
 }
