@@ -465,7 +465,7 @@ margin-bottom: 30px;
 
 @media only screen and (max-width: 500px) {
     .member {
-        width: 160px;
+        width: 190px;
     }
     .member h2 {
         font-size: 10px;
@@ -477,6 +477,14 @@ margin-bottom: 30px;
         gap: 8px;
     }
 }
+@media only screen and (max-width: 500px) {
+    .member {
+        width: 160px;
+    }
+}
+
+
+
 
 /* **************** CONTACT ************************ */
 /* **************** CONTACT ************************ */
